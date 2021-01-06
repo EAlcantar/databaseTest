@@ -1,3 +1,6 @@
 VAR
 	MpDatabaseCore_0 : MpDatabaseCore;
+	MpDatabaseQuery_0 : MpDatabaseQuery;
+	MpDatabaseQuery_1 : MpDatabaseQuery;
+	MpDatabaseQuery_2 : MpDatabaseQuery;
 END_VAR

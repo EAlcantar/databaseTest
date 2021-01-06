@@ -3,9 +3,40 @@
   <Element ID="gDatabaseCore" Type="mpdatabasecore">
     <Group ID="mapp.Database.Core">
       <Property ID="Name" Value="test" />
-      <Property ID="UserName" Value="DESKTOP-G8H6PO2\erick" />
-      <Property ID="Password" Value="0flyBV6s4m/vVB3294kK6glHCsfNtAmbUtK1MvhE3qEnb+bLDLbG6vgYR9WyYWim7" />
+      <Property ID="UserName" Value="plc" />
+      <Property ID="Password" Value="lamisma" />
       <Property ID="PortNumber" Value="86" />
+      <Group ID="DBQueries">
+        <Group ID="[0]">
+          <Property ID="Name" Value="createTable" />
+          <Selector ID="Type" Value="CREATE">
+            <Property ID="TableName" Value="ProductionData" />
+            <Selector ID="Columns">
+              <Property ID="PV" Value="::gDbStruct" />
+            </Selector>
+          </Selector>
+        </Group>
+        <Group ID="[1]">
+          <Property ID="Name" Value="insertData" />
+          <Selector ID="Type" Value="INSERT">
+            <Property ID="Into" Value="ProductionData" />
+            <Selector ID="Columns">
+              <Property ID="PV" Value="::gDbStruct" />
+            </Selector>
+          </Selector>
+        </Group>
+        <Group ID="[2]">
+          <Property ID="Name" Value="extractData" />
+          <Selector ID="Type">
+            <Group ID="Select">
+              <Selector ID="Columns">
+                <Property ID="PV" Value="::gDbStruct" />
+              </Selector>
+            </Group>
+            <Property ID="From" Value="ProductionData" />
+          </Selector>
+        </Group>
+      </Group>
     </Group>
   </Element>
 </Configuration>

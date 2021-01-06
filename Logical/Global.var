@@ -1,8 +1,3 @@
-
 VAR
-
-END_VAR
-
-VAR CONSTANT
-
+	gDbStruct : ProductionData_Db_table_type;
 END_VAR
