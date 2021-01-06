@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="CP0410.Hardware.hw" LastWriteTime="12/31/2020 14:59:16" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BB57" Type="X20BB57" X="100" Y="100" />
+    <Module Name="X20PS9600" Type="X20PS9600" X="125" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="125" Y="127" />
+    <Module Name="X20CP0410" Type="X20CP0410" X="100" Y="100" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

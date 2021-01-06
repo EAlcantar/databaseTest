@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="gDatabaseCore" Type="mpdatabasecore">
+    <Group ID="mapp.Database.Core">
+      <Property ID="Name" Value="test" />
+      <Property ID="UserName" Value="DESKTOP-G8H6PO2\erick" />
+      <Property ID="Password" Value="0flyBV6s4m/vVB3294kK6glHCsfNtAmbUtK1MvhE3qEnb+bLDLbG6vgYR9WyYWim7" />
+      <Property ID="PortNumber" Value="86" />
+    </Group>
+  </Element>
+</Configuration>
