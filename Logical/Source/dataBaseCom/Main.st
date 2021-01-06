@@ -5,6 +5,7 @@ PROGRAM _INIT
 	
 	MpDatabaseCore_0.Enable := TRUE;
 	MpDatabaseCore_0.MpLink := ADR(gDatabaseCore);
+	MpDatabaseCore_0();
 	 
 END_PROGRAM
 
@@ -26,6 +27,12 @@ PROGRAM _EXIT
 	
 	MpDatabaseQuery_0.Enable := FALSE;
 	MpDatabaseQuery_0();
+	
+	MpDatabaseQuery_1.Enable := FALSE;
+	MpDatabaseQuery_2();
+	
+	MpDatabaseQuery_2.Enable := FALSE;
+	MpDatabaseQuery_2();
 	
 	 
 END_PROGRAM
