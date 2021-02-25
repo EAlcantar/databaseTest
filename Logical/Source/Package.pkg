@@ -2,6 +2,9 @@
 <?AutomationStudio Version=4.8.2.72?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
+    <Object Type="File" Description="Local data types" Private="true">DataBaseCom.typ</Object>
+    <Object Type="File" Description="Local variables" Private="true">DataBaseCom.var</Object>
     <Object Type="Program" Language="IEC">dataBaseCom</Object>
+    <Object Type="Package">Doc</Object>
   </Objects>
 </Package>

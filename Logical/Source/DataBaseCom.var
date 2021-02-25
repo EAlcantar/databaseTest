@@ -1,0 +1,20 @@
+(*Variable principal de control de conexión con base de datos*)
+VAR
+	gDbCtrl : Db_ctrl_type;
+END_VAR
+(*BLOQUES DE FUNCIÓN PARA ESTABLECER CONEXIÓN CON DB SQL Y EJECUTAR CONSULTAS*)
+VAR
+	MpDatabaseCore_SQL : MpDatabaseCore;
+	MpDatabase_SQL_Query : MpDatabaseQuery;
+END_VAR
+(*Variables auxiliares*)
+VAR
+	queryStr : STRING[80] := ''; (*Variable auxiliar para generar un query*)
+END_VAR
+(*Constantes del sistema*)
+VAR CONSTANT
+	CONNECT_TRY_LIMIT : USINT := 3;
+	QUERY_SELECT : STRING[10] := 'selectFrom';
+	QUERY_INSERT : STRING[10] := 'insertTo';
+	QUERY_UPDATE : STRING[10] := 'updateTo';
+END_VAR
