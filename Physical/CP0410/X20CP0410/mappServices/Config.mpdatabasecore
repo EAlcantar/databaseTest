@@ -17,7 +17,7 @@
           </Selector>
         </Group>
         <Group ID="[1]">
-          <Property ID="Name" Value="insertData" />
+          <Property ID="Name" Value="insertToProductionData" />
           <Selector ID="Type" Value="INSERT">
             <Property ID="Into" Value="ProductionData" />
             <Selector ID="Columns">
@@ -26,7 +26,7 @@
           </Selector>
         </Group>
         <Group ID="[2]">
-          <Property ID="Name" Value="extractData" />
+          <Property ID="Name" Value="selectFromProductionData" />
           <Selector ID="Type">
             <Group ID="Select">
               <Selector ID="Columns">
